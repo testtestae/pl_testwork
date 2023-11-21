@@ -1,0 +1,12 @@
+#root{
+    box-sizing: border-box;
+    padding: 0 var(--medium-margin);
+    padding-top: 4rem;
+    padding-bottom: 5rem;
+}
+
+#root > .wrapper {
+    height: 100%;
+    width: 100%;
+
+}

@@ -1,0 +1,15 @@
+/*.cards-list{*/
+
+/*}*/
+
+.cards-list > header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.cards-list > main {
+    display: flex;
+    flex-direction: column;
+    gap: var(--small-margin);
+}

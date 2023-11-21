@@ -1,0 +1,43 @@
+
+.form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: var(--big-margin);
+    text-align: center;
+    margin: var(--medium-margin);
+    width: 100%;
+    max-width: var(--max-width);
+}
+
+.form > main {
+    flex-grow: 1;
+    margin: var(--medium-margin) 0;
+}
+
+.form > main form {
+    display: flex;
+    flex-direction: column;
+    gap: var(--medium-margin);
+    /*box-sizing: border-box;*/
+}
+
+.form > main form label {
+    text-align: left;
+}
+
+.form > main form .input {
+    display: flex;
+    flex-direction: column;
+    gap: var(--very-very-small-margin);
+}
+
+.form > main form > a {
+    margin-bottom: var(--big-margin);
+}
+
+.other-service-auth {
+    display: flex;
+    flex-direction: column;
+    gap: var(--big-margin);
+}
